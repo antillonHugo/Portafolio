@@ -510,9 +510,9 @@ font-family: 'Poppins', sans-serif;*/
     }
 
     /* Estilos para la sección de proyectos */
-    .proyectos__galeria{
+    /* .proyectos__galeria{
         flex-basis: 300px;
-    }
+    } */
 
     /* Estilos para la sección de habilidades de lenguajes de programación,bases de datos etc... */
     .tecnologia{
@@ -563,14 +563,26 @@ font-family: 'Poppins', sans-serif;*/
 @media screen and (min-width:1328px){
 
     /* Estilos para la sección de proyectos */
+    /* .proyectos{
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    } */
+
     .proyectos__galeria{
         min-height: 310px;
-        flex-basis: 465px;
+        /* flex-basis: 700px; */
     }
 
     /* Estilos para la sección del footer */
     .footer__ola{
         top: -245px;
+    }
+}
+
+@media screen and (min-width:1536px){
+
+    /* Estilos para la sección de proyectos */
+    .proyectos{
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     }
 }
 
